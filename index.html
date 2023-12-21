@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuti The Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="game" id="game">
+            <div class="player" id="player"></div>
+            <img src="escuti.gif" alt="Escuti" class="top-left-image" id="topLeftImage">
+            <img src="Escudo.jpg" alt="Escudo" class="top-right-image" id="topRightImage">
+            <div id="scoreContainer">
+                <span id="score">Puntaje: 0</span>
+                <span id="highScore">Mayor Puntaje: 0</span>
+            </div>
+            <div id="livesContainer">
+                <img src="corazon.png" alt="Vida" class="life" id="life1">
+                <img src="corazon.png" alt="Vida" class="life" id="life2">
+                <img src="corazon.png" alt="Vida" class="life" id="life3">
+            </div>
+            <div id="overlay"></div>
+            <audio id="loseSound" src="perdiste.mp3"></audio>
+        </div>
+        <div class="message" id="message"></div>
+    </div>
+    <div>
+        <audio id="explosionSound" src="Explosion.mp3"></audio>
+
+    </div>
+    <div></div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
